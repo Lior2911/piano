@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+/* dive */
+.key {
+    border: 1px black solid;
+    height: 100vh;
+    width: fit-content;
+    margin: 0;
+    
+    
+
+}
+
+/* keyboard */
+.list {
+    transform: translate(0, 0);
+    height: 100vh;
+    width: 75vw;
+    margin: 0;
+    list-style-type: none;
+    box-shadow:2px gray ;
+    
+}
+
+/* white keys + hover */
+.white {
+    background-image: linear-gradient(#faebd7, #faebd7);
+    border: 3px solid black;
+    width: 40vw;
+    height: 7vh;
+    transition: all 0.5s;
+    z-index: 1;
+    transform: translate(0, 0);
+    padding-right: 0;
+    box-shadow:brown gray ;
+    text-align: right;
+    font:1vh;
+    color: #faebd7;
+
+    
+    
+}
+
+.white:hover {
+    background-color: #c1b5a5;
+    border: 30px 3.7px 3px 2.5px solid black;
+    width: 39vw;
+    background-image: linear-gradient(45deg, #faf4ec, #bdb3a5);
+    padding-right: 1px;
+    border-right:1.1vw rgb(30, 30, 30) solid ;
+    font:5vh black;
+    color: black ; 
+    
+}
+
+/* black key + hover */
+.black {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 20vw;
+    background-image: linear-gradient(45deg, #323131, black);
+    transition: all 0.3s;
+    z-index: 2;
+    height: 5vh;
+    transform: translate(0, -155vh);
+    font:2vh ;
+    color: #323131 ; 
+    transition: all 0.5s;
+    text-align: right;
+}
+
+.black:hover {
+    border: 30px 3.7px 3px 2.5px solid black;
+    width: 19vw;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(37, 36, 36));
+    border-right:0.7vw rgb(4, 4, 4) solid ;
+    font:5vh;
+    color: white;
+
+}
+
+/* # black keys */
+#a1 {
+    transform: translate(0, -82vh);
+   
+
+}
+
+#b1 {
+    transform: translate(0, -79vh);
+
+}
+
+#c1 {
+    transform: translate(0, -61vh);
+
+}
+
+#d1 {
+    transform: translate(0, -58vh);
+
+}
+
+#e1 {
+    transform: translate(0, -40vh);
+
+}
+
+#f1 {
+    transform: translate(0, -37vh);
+
+}
